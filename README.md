@@ -17,7 +17,7 @@ cargo build --release
 ```
 5. Run the program:
 ```
-cargo run --release -- --input <input_file_path> --output <output_file_path> --config <config_file_path>
+cargo run --release -- --input=<input_file_path> --output=<output_file_path> --config=<config_file_path>
 ```
 Replace `<input_file_path>`, `<output_file_path>`, and `<config_file_path>` with the respective file paths for your input data, output file, and configuration file.
 ## Program Arguments
